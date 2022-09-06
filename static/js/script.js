@@ -1,4 +1,24 @@
+function addVideo() {
+  const btn = document.querySelectorAll('.addVideo')
+  
+  btn.forEach(item => {
+    item.addEventListener('click', function() {
+      const parent = item.closest('.addVideo-wrapper')
+      const height = parent.offsetHeight
+      parent.style.height = height + 'px'
+      parent.innerHTML = `
+        <video controls="controls" autoplay="true">
+          <source src="static/video/${this.dataset.video}.mp4" type="video/mp4">
+        </video>
+      `
+      setTimeout(() => {
+        parent.style.height = null
+      }, 1000)
+    })
+  })
+}
 
+addVideo()
 
 const links = document.querySelectorAll('.footer-menu__link')
 
@@ -68,7 +88,7 @@ function order() {
         save.textContent = `You Save $${sale}`
         retail.textContent = `Retail: ${retailText}`
 
-        yt.textContent = `$${(price + shiping).toFixed(2)}`
+        yt.textContent = `$${price}`
     }
 
     if (!select) return
@@ -96,6 +116,30 @@ function order() {
 
 order()
 
+function orderForm() {
+  const form = document.getElementById('form')
+  console.log("🚀 ~ file: script.js ~ line 121 ~ orderForm ~ form", form)
+  if (!form) return
+  form.addEventListener('submit', function(e) {
+    const items = form.querySelectorAll('.intro-form__item')
+
+    items.forEach(item => {
+      if (!item.value) {
+        e.preventDefault()
+        item.style.borderColor = 'red'
+        item.style.boxShadow = '0 0 0 0.1rem rgb(220 53 69 / 100%)'
+
+        item.addEventListener('focusin', function() {
+          item.style.borderColor = null
+          item.style.boxShadow = null
+        })
+      }
+    })
+  })
+}
+
+orderForm()
+
 const form = document.querySelector('.intro-form')
 
 if (form) {
@@ -109,18 +153,22 @@ if (form) {
         
         if (name.value === '') {
             name.style.borderColor = 'red'
+            name.style.boxShadow = '0 0 0 0.1rem rgb(220 53 69 / 100%)'
         }
 
         if (mail.value === '') {
             mail.style.borderColor = 'red'
+            mail.style.boxShadow = '0 0 0 0.1rem rgb(220 53 69 / 100%)'
         }
 
         name.addEventListener('focusin', function() {
             name.style.borderColor = null
+            name.style.boxShadow = null
         })
 
         mail.addEventListener('focusin', function() {
             mail.style.borderColor = null
+            ьфшд.style.boxShadow = null
         })
 
         
