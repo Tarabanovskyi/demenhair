@@ -633,6 +633,9 @@ a:active,a:hover
 .content_de .intro-content__suptitle {
     font-size: 2.2vw;
 }
+.content_de .revolutional-image {
+	top: 10.78vw;
+}
 .content_de .intro-content__list-item {
     padding-left: 3.7vw;
 }
@@ -641,13 +644,13 @@ a:active,a:hover
 }
 
 .content_de .intro-form__suptitle {
-    font-size: 1.5vw;
+    font-size: 1.2vw;
 }
 .content_de .intro-form__title {
-    font-size: 2.3vw;
+    font-size: 2vw;
 }
 .content_de .intro-content__foot {
-    margin-top: 2.04vw;
+    margin-top: 1.5vw;
 }
 .content_de .intro-content__foot-title {
     font-size: 2.52vw;
@@ -783,16 +786,16 @@ a:active,a:hover
 	}
 
 	.content_de .order-item__head-left {
-		font-size: 10px;
+		font-size: 12px;
 	}
 	.content_de .order-item__head-right {
-		font-size: 11px;
+		font-size: 13px;
 	}
 	.content_de .order-item__btn {
 		font-size: 8px;
 	}
 	.content_de .order-item__name{
-		font-size: 10px;
+		font-size: 12px;
 	}
 	.content_de .order-item__normaly {
 		padding-left: 5px;
@@ -825,14 +828,14 @@ a:active,a:hover
 		padding-right: 2.8vw;
 	}
 	.content_de .intro-content__title-2 {
-		font-size: 11vw;
+		font-size: 10.85vw;
 	}
     .content_de .intro-content__list-txt {
         font-size: 2vw;
         width: 100%;
 
     }
-
+	
     .content_de .intro-content__foot-title {
         font-size: 4.32vw;
     }
@@ -852,7 +855,7 @@ a:active,a:hover
     }
 
     .content_de .intro-content__txt {
-        padding-right: 27.87vw;
+        padding-right: 24.87vw;
     }
     .content_de .fight-content__rx{
         left: -17vw;
@@ -913,6 +916,15 @@ a:active,a:hover
 @media (max-width:374px) {
 	.content_de .order-head__title, .content_de .order-head__subtitle {
 		font-size: 16px;
+	}
+	.content_de .order-item__name{
+		font-size: 10px;
+	}
+	.content_de .order-form__title {
+		font-size: 30px;
+	}
+	.content_de .order-form__subtitle-1 {
+		font-size: 22px;
 	}
 }
 .title
@@ -4678,7 +4690,7 @@ header
 	}
 	.footer-menu__item
 	{
-		font-size: 2.93vw;
+		font-size: 2.55vw;
 		margin: 0 2.67vw;
 	}
 }
