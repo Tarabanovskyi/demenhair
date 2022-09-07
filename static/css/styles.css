@@ -773,6 +773,9 @@ a:active,a:hover
 	}
 }
 @media (max-width:770px) { 
+	.content_de .order-form__title {
+		font-size: 30px;
+	}
 	.content_de .order-head__title,.content_de .order-head__subtitle {
 		font-size: 19px;
 	}
