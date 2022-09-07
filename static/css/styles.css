@@ -4822,7 +4822,10 @@ header
 		-webkit-box-align: start;
 		-ms-flex-align: start;
 			align-items: flex-start;
-		flex-direction: row;
+		-webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
 	}
 	.order-item__img--1,.order-item__img--2
 	{
@@ -4942,6 +4945,9 @@ header
 		-ms-flex-align: start;
 			align-items: flex-start;
 		flex-direction: row;
+		-webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
 	}
 	.order-item__img--1
 	{
