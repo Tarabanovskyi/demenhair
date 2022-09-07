@@ -128,6 +128,18 @@
 .content_de .intro-content__list-title {
 	font-size: 2.14vw;
 }
+@media (max-height:377px) { 
+	.content_de .works-content__txt {
+		font-size: 1.82vw;
+	}
+	.content_de .works-content__list-title {
+		font-size: 1.82vw;
+	}
+	
+	.content_de .works-content__list-txt {
+		font-size: 1.36vw;
+	}
+}
 @media (max-width:910px) { 
     .content_de .order-item__btn {
 		font-size: 11px;
@@ -142,6 +154,7 @@
 		font-size: 15px;
 	}
 }
+
 @media (max-width:770px) { 
 	.content_de .order-form__title {
 		font-size: 30px;
@@ -1008,9 +1021,7 @@ a:active,a:hover
 .content_de .choice__subtitle {
     font-size: 2.7vw;
 }
-.content_de .works-content__list-txt {
-    font-size: 1.36vw;
-}
+
 .content_de .expect-content__subtitle {
     font-size: 2.7vw;
 }
@@ -1205,10 +1216,6 @@ a:active,a:hover
         font-size: 4vw;
     }
 
-    .content_de .works-content__list-txt {
-        font-size: 3.2vw;
-
-    }
     .content_de .effective-content__title, .content_de .expect-content__title, .content_de .works-content__title {
         font-size: 6vw;
     }
