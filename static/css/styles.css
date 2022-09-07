@@ -130,14 +130,14 @@
 }
 @media (max-height:377px) { 
 	.content_de .works-content__txt {
-		font-size: 1.82vw;
+		font-size: 1vw !important;
 	}
 	.content_de .works-content__list-title {
-		font-size: 1.82vw;
+		font-size: 1vw !important;
 	}
 	
 	.content_de .works-content__list-txt {
-		font-size: 1.36vw;
+		font-size: 1vw !important;
 	}
 }
 @media (max-width:910px) { 
