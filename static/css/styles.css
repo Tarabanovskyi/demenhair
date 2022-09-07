@@ -130,14 +130,39 @@
 }
 @media (max-height:377px) { 
 	.content_de .works-content__txt {
-		font-size: 1vw !important;
+		font-size: 0.96vw !important;
 	}
 	.content_de .works-content__list-title {
-		font-size: 1vw !important;
+		font-size: 0.96vw !important;
 	}
 	
 	.content_de .works-content__list-txt {
-		font-size: 1vw !important;
+		font-size: 0.96vw !important;
+	}
+
+	.content_de .effective-content__txt {
+		font-size: 0.96vw !important;
+	}
+
+	.content_de .effective-content__list-title {
+		font-size: 1.16vw !important;
+
+	}
+
+	.content_de .effective-content__list-txt {
+		font-size: 0.7vw;
+	}
+
+	.content_de .fight-content__subtitle {
+		font-size: 1.16vw !important;
+	}
+
+	.content_de .fight-content__txt {
+		font-size: 0.9vw;
+	}
+
+	.content_de .fight-content__list-info {
+		font-size: 0.7vw;
 	}
 }
 @media (max-width:910px) { 
