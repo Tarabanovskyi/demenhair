@@ -788,9 +788,7 @@ a:active,a:hover
 		font-size: 8px;
 	}
 
-	.content_de .order-item__head-left {
-		font-size: 12px;
-	}
+	
 	.content_de .order-item__head-right {
 		font-size: 13px;
 	}
@@ -798,7 +796,10 @@ a:active,a:hover
 		font-size: 8px;
 	}
 	.content_de .order-item__name{
-		font-size: 12px;
+		font-size: 10px;
+	}
+	.content_de .order-item__head-left {
+		font-size: 10.5px;
 	}
 	.content_de .order-item__normaly {
 		padding-left: 5px;
@@ -827,6 +828,12 @@ a:active,a:hover
 	.content_de .intro-content__title-1 {
 		font-size: 11vw;
 		padding-right: 3.5vw;
+	}
+	.content_de .order-item__name{
+		font-size: 12px;
+	}
+	.content_de .order-item__head-left {
+		font-size: 12px;
 	}
 
 	.content_de .intro-content__suptitle {
