@@ -164,6 +164,9 @@
 	.content_de .fight-content__list-info {
 		font-size: 0.7vw;
 	}
+	.content_de .revolutional-content__txt {
+		font-size: 1vw;
+	}
 }
 @media (max-width:910px) { 
     .content_de .order-item__btn {
