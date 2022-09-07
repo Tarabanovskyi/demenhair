@@ -802,7 +802,7 @@ a:active,a:hover
 	}
 
 	.content_de .order-item__normaly-txt, .content_de .order-item__normaly-value {
-		font-size: 14px;
+		font-size: 12px;
 	}
 }
 
@@ -818,6 +818,9 @@ a:active,a:hover
     .content_de .intro-content__list-item {
         padding-left: 12.47vw
     }
+	.content_de .order-item__normaly-txt, .content_de .order-item__normaly-value {
+		font-size: 14px;
+	}
 	.content_de .intro-content__title-1 {
 		font-size: 11vw;
 		padding-right: 3.5vw;
