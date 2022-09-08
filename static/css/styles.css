@@ -4925,6 +4925,10 @@ header
 .content_de .intro-content__list-title {
 	font-size: 2.14vw;
 }
+
+.osw, .subtitle {
+    font-family: "Roboto Condensed",sans-serif;
+}
 @media (max-height:377px) { 
 	.content_de .works-content__txt {
 		font-size: 0.96vw !important;
