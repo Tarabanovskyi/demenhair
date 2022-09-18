@@ -4930,6 +4930,10 @@ header
 	font-size: 2.14vw;
 }
 @media (max-height:377px) { 
+
+	.order__head {
+		height: 90px;
+	}
 	.order-total__img {
 		display: none  !important;
 	}
