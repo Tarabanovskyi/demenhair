@@ -426,6 +426,13 @@ function link() {
   } else {
     btn.setAttribute('href', '#')
   }
+  if (window.matchMedia('(max-height: 377px)').matches) {
+    btn.setAttribute('href', '#')
+
+  } else {
+    btn.setAttribute('href', 'qualify.html')
+
+  }
 }
 
 
