@@ -4930,7 +4930,9 @@ header
 	font-size: 2.14vw;
 }
 @media (max-height:377px) { 
-
+	.revolutional__btn {
+		bottom: 0.79vw;
+	}
 	.order__head {
 		height: 90px;
 	}
